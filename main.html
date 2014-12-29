@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <title>Graphs</title>
+		<script src="kinetic.js">
+		</script>
+		<script src="jquery.js">
+		</script>
+    </head>
+    <body style="text-align:center"; onmousedown = "return false;">
+		<p>Когда-нибудь тут будет название</p>
+		<!--<canvas height = '363' width = '578' id = 'graph'>Редактор графов</canvas>-->
+		<div>
+			<button id="add_ver">Добавить вершину</button>
+			<button id="add_edge">Добавить ребро</button>
+			<button id="fin">Посчитать характеристики</button>
+		</div>
+		<div id="container"></div>
+		<input type="checkbox" id="weighted"></input>
+		<label for="weighted">Наличие весов у рёбер</label>
+        <script  defer = "defer" type = "text/javascript" src = "canvas.js">
+		</script>
+    </body>
+</html>
