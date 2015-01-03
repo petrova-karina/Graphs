@@ -185,7 +185,6 @@ $("#add_edge").click(function() {
 	}
 });
 
-// --------------- here starts govnokod ----------------------
 
 
 function min(x, y) 
